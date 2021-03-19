@@ -16,6 +16,9 @@ var once sync.Once
 var candidateVotesStore map[string]int
 
 // Vote data
+//hello world
+
+// sending data
 type Vote struct {
 	CandidateID string `json:"candidate_id"`
 	VoterID     string `json:"voter_id"`
