@@ -13,3 +13,6 @@ COPY --from=builder /go/app /app
 ENTRYPOINT ["/app"]
 #Testing roost git operations
 # test
+
+#Testing the application. Done by VIVEK K B
+
