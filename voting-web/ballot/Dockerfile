@@ -11,3 +11,14 @@ LABEL maintainer="mgdevstack" \
     owner="zbio"
 COPY --from=builder /go/app /app
 ENTRYPOINT ["/app"]
+#Testing roost git operations
+# testing the application
+#Testing the dockerfile
+
+#demo the feature
+
+#Test collab feature
+
+
+#Testing git ops feature
+
