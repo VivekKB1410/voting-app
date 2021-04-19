@@ -1,5 +1,5 @@
 package main
-#changing some content
+//changing some content
 import (
 	"encoding/json"
 	"log"
@@ -8,7 +8,8 @@ import (
 	"sort"
 	"sync"
 )
-#Hello World
+//Hello World
+
 var port string = "80"
 var once sync.Once
 
@@ -128,6 +129,7 @@ func serveRoot(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
+	log.Println("Testing gitops feature")
 	http.HandleFunc("/", serveRoot)
 	log.Println(http.ListenAndServe(net.JoinHostPort("", port), nil))
 }
