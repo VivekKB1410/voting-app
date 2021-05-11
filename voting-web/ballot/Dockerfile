@@ -11,5 +11,18 @@ LABEL maintainer="mgdevstack" \
     owner="zbio"
 COPY --from=builder /go/app /app
 ENTRYPOINT ["/app"]
-#Testing roost git operations
-# test
+
+#Hello World
+
+#hello moto
+
+
+#hello World
+#testing gitops feature
+
+
+
+
+
+#Test gitops feature
+

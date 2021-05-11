@@ -22,3 +22,7 @@ COPY . ./
 EXPOSE 5000
 # start app
 ENTRYPOINT ["npm", "start"]
+
+
+# Testing in dockerfile
+
