@@ -9,6 +9,7 @@ testing2
 testing3
 testing4
 testing5
+testing6
 Build ballot/Dockerfile
 Apply ballot/ballot.yaml to ZKE
 
