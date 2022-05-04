@@ -4,8 +4,8 @@ Deploy voter/voter.yaml
 And you can access roost-controlplane:30030 over a browser 
 * For single-node cluster, try roost-worker instead of roost-controlplane
 But this is just the UI
-
-
+Testing voting app for eaas
+testing2
 Build ballot/Dockerfile
 Apply ballot/ballot.yaml to ZKE
 
