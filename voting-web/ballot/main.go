@@ -38,7 +38,7 @@ type Status struct {
 	Message string `json:"message"`
 }
 
-// getVote returns empty data instead of nil if voting not happened
+// getVote returns empty data instead of nil if voting not happened test123
 func getCandidatesVote() map[string]int {
 	once.Do(func() {
 		candidateVotesStore = make(map[string]int)
