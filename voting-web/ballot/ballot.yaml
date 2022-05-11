@@ -34,4 +34,4 @@ spec:
         image: ballot:latest
         ports:
         - containerPort: 80
-        imagePullPolicy: clear
+        imagePullPolicy: IfNotPresent
