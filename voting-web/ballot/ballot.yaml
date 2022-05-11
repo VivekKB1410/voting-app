@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
       - name: ballot
-        image: ballot:latest
+        image: localhost:5002/ballot:latest
         ports:
         - containerPort: 80
         imagePullPolicy: IfNotPresent
