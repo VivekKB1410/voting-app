@@ -11,7 +11,7 @@ import (
 var port string = "80"
 var once sync.Once
 
-// candidateVotesStore holds map[candidate_id] = vote_count
+// candidateVotesStore holds map[candidate_id] = vote_count test
 var candidateVotesStore map[string]int
 
 // Vote data
